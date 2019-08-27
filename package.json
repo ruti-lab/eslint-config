@@ -1,0 +1,26 @@
+{
+    "name": "@ruti-lab/eslint-config",
+    "version": "0.1.0",
+    "description": "Our own eslint configuration package",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ruti-lab/eslint-config.git"
+    },
+    "author": "RUTI-lab",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/ruti-lab/eslint-config/issues"
+    },
+    "homepage": "https://github.com/ruti-lab/eslint-config#readme",
+    "peerDependencies": {
+        "eslint": ">= 3"
+    },
+    "dependencies": {
+        "@typescript-eslint/eslint-plugin": "^2.0.0",
+        "@typescript-eslint/parser": "^2.0.0",
+        "eslint-config-airbnb-base": "^14.0.0",
+        "eslint-plugin-import": "^2.18.2",
+        "eslint-plugin-vue": "^5.2.3"
+    }
+}
