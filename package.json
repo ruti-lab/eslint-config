@@ -3,6 +3,9 @@
     "version": "0.1.0",
     "description": "Our own eslint configuration package",
     "main": "index.js",
+    "publishConfig": {
+        "access": "public"
+    },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/ruti-lab/eslint-config.git"
