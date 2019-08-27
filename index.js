@@ -48,5 +48,7 @@ module.exports = {
             requireReturn: false,
             requireReturnDescription: false,
         }],
+
+        'vue/html-indent': [error, 4]
     }
 };
