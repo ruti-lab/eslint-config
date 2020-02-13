@@ -20,10 +20,10 @@
         "eslint": ">= 3"
     },
     "dependencies": {
-        "@typescript-eslint/eslint-plugin": "^2.0.0",
-        "@typescript-eslint/parser": "^2.0.0",
+        "@typescript-eslint/eslint-plugin": "^2.19.2",
+        "@typescript-eslint/parser": "^2.19.2",
         "eslint-config-airbnb-base": "^14.0.0",
-        "eslint-plugin-import": "^2.18.2",
-        "eslint-plugin-vue": "^5.2.3"
+        "eslint-plugin-import": "^2.20.1",
+        "eslint-plugin-vue": "^6.1.2"
     }
 }
