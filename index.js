@@ -29,6 +29,9 @@ module.exports = {
         indent: [error, 4, {
             SwitchCase: 1,
         }],
+        'lines-between-class-members': [error, 'always', {
+            exceptAfterSingleLine: true,
+        }],
         'max-len': [error, {
             code: 120,
             ignoreComments: true,
