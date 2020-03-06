@@ -29,6 +29,7 @@ module.exports = {
         indent: [error, 4, {
             SwitchCase: 1,
         }],
+        'brace-style': [error, 'stroustrup'],
         'lines-between-class-members': [error, 'always', {
             exceptAfterSingleLine: true,
         }],
@@ -52,6 +53,8 @@ module.exports = {
             requireReturnDescription: false,
         }],
 
-        'vue/html-indent': [error, 4]
+        'vue/html-indent': [error, 4],
+
+        'import/extensions': [off],
     }
 };
